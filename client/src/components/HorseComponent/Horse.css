@@ -1,0 +1,24 @@
+.track {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    background: green;
+    align-items: center;
+    border-top: 10px solid #fff;
+    position: relative;
+}
+
+.track:last-child {
+    border-bottom: 10px solid #fff;
+}
+
+
+.horse {
+    position: absolute;
+    display: inline-flex;
+}
+
+.horse__name {
+    font-size: 18px;
+    padding-left: 15px;
+}
